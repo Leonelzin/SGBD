@@ -5,8 +5,8 @@ Dev: Douglas Leonel de Almeida
 DATA: 21/03/2023 
 */
 
--- Loop em uma linguagem de programação ou um procedimento armazenado banco de dados. 
-
+-- Loop em uma linguagem de programação ou um procedimento armazenado banco de dados para gerar os 100 registros.
+ 
 DELIMITER //
 CREATE PROCEDURE InsertMegalodonRecords()
 BEGIN
