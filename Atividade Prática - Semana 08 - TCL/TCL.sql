@@ -32,10 +32,10 @@ END
 Explicação:
 */
 
--- Este exemplo simula uma venda de um produto fictício chamado "Dente de Tubarão Megalodonte". O código SQL inicia uma transação usando a instrução BEGIN TRANSACTION. Em seguida, a quantidade atual do produto no estoque é selecionada usando uma instrução SELECT.
+Este exemplo simula uma venda de um produto fictício chamado "Dente de Tubarão Megalodonte". O código SQL inicia uma transação usando a instrução BEGIN TRANSACTION. Em seguida, a quantidade atual do produto no estoque é selecionada usando uma instrução SELECT.
 
--- Se a quantidade atual for maior do que zero, a quantidade é decrementada em 1 usando uma instrução UPDATE. Se a quantidade atual for igual a zero, uma mensagem de erro é exibida usando a instrução PRINT e a transação é revertida usando a instrução ROLLBACK TRANSACTION.
+Se a quantidade atual for maior do que zero, a quantidade é decrementada em 1 usando uma instrução UPDATE. Se a quantidade atual for igual a zero, uma mensagem de erro é exibida usando a instrução PRINT e a transação é revertida usando a instrução ROLLBACK TRANSACTION.
 
--- Se a quantidade foi atualizada com sucesso, a transação é confirmada usando a instrução COMMIT TRANSACTION e uma mensagem de sucesso é exibida usando a instrução PRINT.
+Se a quantidade foi atualizada com sucesso, a transação é confirmada usando a instrução COMMIT TRANSACTION e uma mensagem de sucesso é exibida usando a instrução PRINT.
 
--- O uso de recursos de controle de transação neste exemplo garante que a quantidade de estoque do produto nunca se torne negativa. Além disso, em caso de erro, a transação é revertida e o banco de dados é mantido consistente.
+O uso de recursos de controle de transação neste exemplo garante que a quantidade de estoque do produto nunca se torne negativa. Além disso, em caso de erro, a transação é revertida e o banco de dados é mantido consistente.
