@@ -1,0 +1,12 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Sistemas Gerenciadores de Banco de Dados 
+Dev: Douglas Leonel de Almeida
+DATA: 10/04/2023 
+
+Identificando 3 transações críticas relacionadas ao banco de dados sobre o tema Megalodonte:
+
+Inserção de um novo registro na tabela Megalodon: essa transação é crítica, pois a adição de um novo registro pode influenciar em outras tabelas, como a tabela Fósseis, a tabela Presas e a tabela Alimentação, que possuem chaves estrangeiras referenciando a tabela Megalodon. Se a inserção for feita incorretamente ou se um campo for deixado em branco, isso pode afetar a integridade referencial do banco de dados.
+
+Atualização dos dados do registro de um fóssil na tabela Fósseis: essa transação é crítica, pois a atualização de dados do registro de um fóssil pode afetar a integridade referencial da tabela Megalodon. Se o ID do megalodonte ao qual o fóssil pertence for alterado ou se a atualização for feita incorretamente, isso pode causar inconsistências nos dados.
+
+Exclusão de um registro na tabela Megalodon: essa transação é crítica, pois a exclusão de um registro na tabela Megalodon pode afetar outras tabelas que possuem chaves estrangeiras referenciando a tabela Megalodon, como a tabela Fósseis, a tabela Presas e a tabela Alimentação. Se a exclusão for feita incorretamente ou se uma restrição de chave estrangeira for violada, isso pode causar inconsistências nos dados e afetar a integridade referencial do banco de dados.
