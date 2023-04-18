@@ -1,0 +1,20 @@
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Sistemas Gerenciadores de Banco de Dados 
+Dev: Douglas Leonel de Almeida
+DATA: 17/04/2023 
+
+O banco de dados referente ao tema megalodonte pode se beneficiar da utilização de functions, procedures, triggers e events em diferentes situações. Algumas delas incluem:
+
+Functions:
+Functions podem ser usadas para executar cálculos complexos ou para retornar valores específicos com base em determinadas condições. No caso do banco de dados do megalodonte, uma function pode ser utilizada para calcular o tamanho aproximado do tubarão com base em outros dados disponíveis, como a circunferência do dente. Isso pode ser útil para fins de pesquisa e para ajudar a estimar o tamanho dos megalodontes que não possuem dentes completos.
+
+Procedures:
+Procedures são usadas para realizar tarefas específicas no banco de dados. No caso do megalodonte, uma procedure pode ser usada para atualizar informações de registro sempre que novos dados forem adicionados ao banco de dados. Por exemplo, uma procedure pode ser configurada para atualizar automaticamente a idade do fóssil do megalodonte sempre que novas informações forem adicionadas.
+
+Triggers:
+Triggers são usados para executar ações automáticas quando certos eventos ocorrem no banco de dados. No caso do megalodonte, um trigger pode ser usado para enviar um e-mail ou uma notificação sempre que novas informações relevantes forem adicionadas ao banco de dados. Por exemplo, um trigger pode ser configurado para enviar uma notificação para o pesquisador principal sempre que novas informações sobre a dieta do megalodonte forem adicionadas.
+
+Events:
+Events são usados para executar ações específicas em horários programados. No caso do megalodonte, um evento pode ser usado para executar rotinas de backup programadas do banco de dados para garantir que todas as informações estejam salvas regularmente. Isso é importante para garantir que as informações do banco de dados do megalodonte sejam protegidas contra perda ou corrupção.
+
+Em resumo, functions, procedures, triggers e events são ferramentas poderosas que podem ser usadas para melhorar a funcionalidade do banco de dados do megalodonte. Com a ajuda dessas ferramentas, é possível automatizar tarefas rotineiras, garantir a integridade dos dados e melhorar a eficiência geral do sistema.
