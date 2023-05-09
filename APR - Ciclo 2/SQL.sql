@@ -11,7 +11,9 @@ CREATE TABLE consultorios
                           id_consultorio INT PRIMARY KEY,
                           nome           VARCHAR(50),
                           localizacao    VARCHAR(50)
-             );CREATE TABLE profissionais
+             );
+             
+             CREATE TABLE profissionais
              (
                           id_profissional   INT PRIMARY KEY,
                           nome              VARCHAR(50),
@@ -20,13 +22,17 @@ CREATE TABLE consultorios
                           id_consultorio    INT,
                           FOREIGN KEY (id_especialidade) REFERENCES especialidade(id),
                           FOREIGN KEY (id_consultorio) REFERENCES consultorios(id_consultorio)
-             );CREATE TABLE pacientes
+             );
+             
+             CREATE TABLE pacientes
              (
                           id_paciente     INT PRIMARY KEY,
                           nome            VARCHAR(50),
                           data_nascimento DATE,
                           cartao_convenio VARCHAR(50)
-             );CREATE TABLE agendamentos
+             );
+             
+             CREATE TABLE agendamentos
              (
                           id_agendamento  INT PRIMARY KEY,
                           data_hora       DATETIME,
@@ -34,18 +40,22 @@ CREATE TABLE consultorios
                           id_profissional INT,
                           FOREIGN KEY (id_paciente) REFERENCES pacientes(id_paciente),
                           FOREIGN KEY (id_profissional) REFERENCES profissionais(id_profissional)
-             );CREATE TABLE auditoriaagendamentos
+             );
+             
+             CREATE TABLE auditoriaagendamentos
              (
                           id_auditoria   INT PRIMARY KEY,
                           id_agendamento INT,
                           data_hora      DATETIME
-             );CREATE TRIGGER tr_auditagendamentos ON agendamentos after
-UPDATE,
-INSERT,
-DELETE AS BEGIN
-DECLARE @id_agendamento INT;
-SELECT @id_agendamento = id_agendamento
-FROM   inserted;
+             );
+             
+             CREATE TRIGGER tr_auditagendamentos ON agendamentos after
+                UPDATE,
+                INSERT,
+                DELETE AS BEGIN
+                DECLARE @id_agendamento INT;
+                SELECT @id_agendamento = id_agendamento
+                FROM   inserted;
 
 INSERT INTO auditoriaagendamentos
             (
@@ -64,6 +74,7 @@ END;
   @data_hora       DATETIME,
   @id_paciente     INT,
   @id_profissional INT
+
 AS
   BEGIN
     IF EXISTS
@@ -111,40 +122,40 @@ BEGIN
 END;
 
 -- View que mostre uma lista de todos os agendamentos, incluindo informações detalhadas sobre o paciente, o profissional e o consultórioCREATE VIEW vw_listaagendamentos AS
-SELECT     a.id_agendamento,
-           a.data_hora,
-           p.nome  AS nome_paciente,
-           pr.nome AS nome_profissional,
-           e.nome  AS nome_especialidade,
-           c.nome  AS nome_consultorio,
-           c.localizacao
-FROM       agendamentos a
-INNER JOIN pacientes p
-ON         a.id_paciente = p.id_paciente
-INNER JOIN profissionais pr
-ON         a.id_profissional = pr.id_profissional
-INNER JOIN consultorios c
-ON         pr.id_consultorio = c.id_consultorio
-INNER JOIN especialidade e
-ON         pr.id_especialidade = e.id;
+    SELECT     a.id_agendamento,
+            a.data_hora,
+            p.nome  AS nome_paciente,
+            pr.nome AS nome_profissional,
+            e.nome  AS nome_especialidade,
+            c.nome  AS nome_consultorio,
+            c.localizacao
+    FROM       agendamentos a
+    INNER JOIN pacientes p
+    ON         a.id_paciente = p.id_paciente
+    INNER JOIN profissionais pr
+    ON         a.id_profissional = pr.id_profissional
+    INNER JOIN consultorios c
+    ON         pr.id_consultorio = c.id_consultorio
+    INNER JOIN especialidade e
+    ON         pr.id_especialidade = e.id;
 
 -- Criação de usuários e permissõesCREATE login admin WITH password = 'senha_admin';CREATE login profissional WITH password = 'senha_profissional';CREATE login recepcionista WITH password = 'senha_recepcionista';CREATE USER admin FOR login admin;CREATE USER profissional FOR login profissional;CREATE USER recepcionista FOR login recepcionista;GRANT
-SELECT,
-INSERT,
-UPDATE,
-DELETE
-ON agendamentos TO admin;GRANT
-SELECT
-ON pacientes,
-       consultorios,
-       especialidade TO profissional;GRANT
-SELECT,
-INSERT,
-UPDATE,
-DELETE
-ON agendamentos TO recepcionista;GRANT
-SELECT
-ON pacientes,
-       profissionais,
-       consultorios,
-       especialidade TO recepcionista;
+    SELECT,
+    INSERT,
+    UPDATE,
+    DELETE
+    ON agendamentos TO admin;GRANT
+    SELECT
+    ON pacientes,
+        consultorios,
+        especialidade TO profissional;GRANT
+    SELECT,
+    INSERT,
+    UPDATE,
+    DELETE
+    ON agendamentos TO recepcionista;GRANT
+    SELECT
+    ON pacientes,
+        profissionais,
+        consultorios,
+        especialidade TO recepcionista;
