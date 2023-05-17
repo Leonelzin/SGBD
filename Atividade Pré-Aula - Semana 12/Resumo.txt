@@ -1,0 +1,18 @@
+Curso de Engenharia de Software - UniEVANGÉLICA
+Disciplina de Sistemas Gerenciadores de Banco de Dados
+Dev: Douglas Leonel de Almeida
+DATA: 17/05/2023
+
+No contexto de SQL, uma procedure é um bloco de código que executa uma série de instruções e pode ou não retornar um valor. 
+
+Já uma function é uma estrutura que sempre retorna um valor e pode ser utilizada em expressões SQL.
+
+A principal diferença entre as duas é que uma procedure é utilizada para executar uma série de instruções, enquanto uma function é utilizada para retornar um valor específico. 
+
+Além disso, uma function pode ser utilizada em expressões SQL, enquanto uma procedure não pode.
+
+Uma procedure é adequada quando se deseja executar uma série de instruções sem a necessidade de retornar um valor específico. 
+
+Já uma function é adequada quando se deseja retornar um valor específico que pode ser utilizado em expressões SQL.
+
+Em resumo, a escolha entre utilizar uma procedure ou uma function depende do objetivo da operação que se deseja realizar.
