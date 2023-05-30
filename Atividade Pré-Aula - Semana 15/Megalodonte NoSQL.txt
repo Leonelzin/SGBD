@@ -1,0 +1,30 @@
+Course: Software Engineering - UniEVANGÉLICA
+Subject: Database Management Systems
+Developer: Douglas Leonel de Almeida - 2110213
+Date: 29/05/2023
+
+No contexto do meu projeto individual sobre o tema Megalodonte, uma solução NoSQL pode ser aplicada em diversas situações para auxiliar no armazenamento e gerenciamento de dados relacionados a essa espécie extinta de tubarão gigante. 
+
+A utilização de um banco de dados NoSQL traz benefícios específicos em cenários em que a estrutura e o volume dos dados são heterogêneos e/ou massivos, e em que a flexibilidade e escalabilidade são requisitos importantes.
+
+Um dos principais pontos em que uma solução NoSQL pode ser empregada é no armazenamento de dados provenientes de pesquisas paleontológicas sobre o Megalodonte. 
+
+Essas pesquisas podem gerar uma enorme quantidade de informações, como registros fósseis, análises morfológicas, dados geológicos e informações sobre o ambiente em que esses tubarões habitavam. 
+
+Nesse caso, um banco de dados NoSQL pode ser utilizado para armazenar essas informações em formato não estruturado ou semi-estruturado, permitindo uma fácil expansão à medida que novos dados são coletados e evitando a necessidade de alterações frequentes na estrutura do banco.
+
+Além disso, uma solução NoSQL pode ser útil no contexto de monitoramento e análise de dados de localização e migração do Megalodonte. 
+
+Por exemplo, caso sejam utilizados dispositivos de rastreamento em escala para acompanhar o comportamento desses animais, uma base de dados NoSQL pode lidar com grande volume de informações geoespaciais de forma eficiente, armazenando coordenadas, timestamps e outros atributos relacionados aos movimentos e deslocamentos dos tubarões.
+
+Outra situação em que uma solução NoSQL pode ser empregada é na criação de um sistema de gerenciamento de informações turísticas relacionadas ao Megalodonte. 
+
+Com o crescimento do turismo paleontológico e a demanda por informações precisas e atualizadas sobre sítios arqueológicos e museus relacionados a essa espécie, um banco de dados NoSQL pode ser utilizado para armazenar informações sobre localização, horários, preços, avaliações e outros dados relevantes para turistas interessados em aprender sobre o Megalodonte.
+
+Por fim, considerando que o Megalodonte é um tema de interesse para diversos entusiastas e pesquisadores em todo o mundo, uma solução NoSQL pode ser aplicada no desenvolvimento de uma plataforma de compartilhamento de dados e colaboração científica. 
+
+Com a capacidade de armazenar dados em formato flexível e escalável, um banco de dados NoSQL pode permitir a contribuição e consulta de informações sobre descobertas, estudos e pesquisas relacionadas ao Megalodonte, incentivando a colaboração e a troca de conhecimento nesse campo científico.
+
+Em resumo, uma solução NoSQL pode ser utilizada em várias situações no âmbito do meu projeto individual sobre o Megalodonte, como no armazenamento de dados de pesquisas paleontológicas, no monitoramento da localização e migração dos tubarões, no gerenciamento de informações turísticas e na criação de uma plataforma de compartilhamento e colaboração científica. 
+
+A flexibilidade e escalabilidade oferecidas por um banco de dados NoSQL são especialmente úteis quando lidamos com volumes massivos de dados heter
