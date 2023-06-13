@@ -1,0 +1,12 @@
+Course: Software Engineering - UniEVANGÉLICA
+Subject: Database Management Systems
+Developer: Douglas Leonel de Almeida - 2110213
+Date: 13/06/2023
+
+O banco de dados escolhido para este cenário é o MongoDB, que é um banco de dados NoSQL orientado a documentos. 
+
+O MongoDB é uma escolha adequada para este caso de uso devido à sua flexibilidade e escalabilidade. 
+
+Ele permite a criação de documentos JSON que podem ser facilmente mapeados para objetos em linguagens de programação, tornando a integração com o backend do sistema mais simples. 
+
+Além disso, o MongoDB possui suporte nativo para consultas de intervalo de datas, o que é fundamental para a funcionalidade de gerenciamento de produtos com base na data de validade.

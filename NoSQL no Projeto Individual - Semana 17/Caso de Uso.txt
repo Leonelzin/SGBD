@@ -1,0 +1,8 @@
+Course: Software Engineering - UniEVANGÉLICA
+Subject: Database Management Systems
+Developer: Douglas Leonel de Almeida - 2110213
+Date: 13/06/2023
+
+Caso de uso: Gerenciamento de produtos e validade na despensa virtual
+
+Neste caso de uso específico do projeto NaDespensa, o objetivo é permitir aos usuários gerenciar os produtos armazenados em sua despensa virtual, levando em consideração suas datas de validade. O sistema deve fornecer uma interface intuitiva para que os usuários possam adicionar, remover e visualizar os produtos em sua despensa, além de receber notificações sobre itens próximos da data de vencimento.

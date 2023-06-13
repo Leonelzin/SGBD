@@ -1,0 +1,26 @@
+Course: Software Engineering - UniEVANGÉLICA
+Subject: Database Management Systems
+Developer: Douglas Leonel de Almeida - 2110213
+Date: 13/06/2023
+
+Ao usar o MongoDB, podemos estruturar os dados armazenados da seguinte forma:
+
+Coleção "Products":
+
+Campo "_id": Identificador único do produto
+Campo "name": Nome do produto
+Campo "expirationDate": Data de validade do produto
+Campo "quantity": Quantidade disponível na despensa
+Campo "price": Preço do produto
+Coleção "Users":
+
+Campo "_id": Identificador único do usuário
+Campo "name": Nome do usuário
+Campo "email": Endereço de e-mail do usuário
+Campo "password": Senha do usuário (criptografada)
+Campo "pantry": Array de referências para os produtos presentes na despensa do usuário
+Com essa estrutura de dados, é possível armazenar informações sobre cada produto, como seu nome, data de validade, quantidade disponível e preço. 
+
+Além disso, é possível associar os produtos a cada usuário por meio do campo "pantry" na coleção "Users", permitindo um gerenciamento personalizado da despensa virtual para cada usuário.
+
+O uso do MongoDB facilita a manipulação desses dados, permitindo consultas eficientes, ordenação por data de validade e integração fácil com a interface do usuário do sistema.
