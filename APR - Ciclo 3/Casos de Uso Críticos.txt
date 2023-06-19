@@ -1,0 +1,9 @@
+Course: Software Engineering - UniEVANGÉLICA
+Subject: Database Management Systems
+Developer: Douglas Leonel de Almeida - 2110213
+Date: 19/06/2023
+
+Cadastro e Controle de Pacientes da Rede Pública de Saúde:
+O primeiro caso de uso crítico é o cadastro e controle de pacientes da rede pública de saúde. 
+
+Nesse sistema, é necessário persistir e consultar dados de maneira ágil, além de realizar análise de dados e extração de conhecimento para apoiar a tomada de decisões na gestão da saúde pública.

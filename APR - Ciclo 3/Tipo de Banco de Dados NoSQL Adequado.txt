@@ -1,0 +1,19 @@
+Course: Software Engineering - UniEVANGÉLICA
+Subject: Database Management Systems
+Developer: Douglas Leonel de Almeida - 2110213
+Date: 19/06/2023
+
+Justificativa: Um banco de dados de gráfico é adequado para esse caso de uso, pois permite modelar e representar relacionamentos complexos entre os pacientes, médicos, hospitais e outros elementos do sistema de saúde. 
+
+Com um banco de dados de gráfico, é possível realizar consultas eficientes para identificar conexões entre pacientes, mapear redes de contatos e analisar padrões de propagação de doenças. 
+
+Além disso, a estrutura flexível de um banco de dados de gráfico permite a adição de elementos inovadores, como algoritmos de detecção de comunidades ou análise de centralidade, que podem ajudar na extração de conhecimento a partir dos dados. 
+
+Esses recursos são especialmente úteis para a análise epidemiológica e o planejamento de recursos na rede pública de saúde.
+
+Gerenciamento de Licenças e Pagamentos de Software:
+O segundo caso de uso crítico é o gerenciamento de licenças e pagamentos de software. 
+
+Nesse sistema, é necessário persistir dados relacionados a licenças de uso, cobranças e pagamentos dos clientes da UniSoft. 
+
+Também é importante garantir a conformidade com as normas e modelos de qualidade de processos e produtos de software.

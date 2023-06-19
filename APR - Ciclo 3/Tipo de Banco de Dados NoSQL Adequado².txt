@@ -1,0 +1,12 @@
+Course: Software Engineering - UniEVANGÉLICA
+Subject: Database Management Systems
+Developer: Douglas Leonel de Almeida - 2110213
+Date: 19/06/2023
+
+Justificativa: Um banco de dados de coluna é adequado para esse caso de uso, pois permite uma rápida persistência e consulta de dados em larga escala. 
+
+Esse tipo de banco de dados é otimizado para trabalhar com grandes volumes de dados e consultas analíticas, o que é essencial para gerenciar as informações de licenças e pagamentos dos clientes da UniSoft. 
+
+Além disso, os bancos de dados de coluna têm a capacidade de compactar e armazenar eficientemente os dados, reduzindo o custo de armazenamento. 
+
+A conformidade com as normas e modelos de qualidade de processos e produtos de software também pode ser facilitada por recursos como criptografia de dados e controle de acesso granular oferecidos por alguns bancos de dados de coluna.
