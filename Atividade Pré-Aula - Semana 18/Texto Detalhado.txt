@@ -1,0 +1,40 @@
+Course: Software Engineering - UniEVANGÉLICA
+Subject: Database Management Systems
+Developer: Douglas Leonel de Almeida - 2110213
+Date: 20/06/2023
+
+O Docker oferece várias vantagens para o gerenciamento de Sistemas de Gerenciamento de Bancos de Dados (SGBDs), proporcionando maior flexibilidade, eficiência e facilidade de uso. 
+
+A seguir, discutirei algumas dessas vantagens e apresentarei exemplos práticos relacionados ao tema "megalodonte".
+
+Isolamento e portabilidade: O Docker permite isolar o SGBD em um contêiner, juntamente com todas as suas dependências, bibliotecas e configurações. 
+
+Isso garante que o SGBD funcione consistentemente em diferentes ambientes, independentemente das diferenças nas configurações do sistema operacional ou das versões de bibliotecas. 
+
+Por exemplo, imagine que você esteja desenvolvendo um aplicativo que utiliza um banco de dados de grande porte relacionado ao tema "megalodonte". 
+
+Com o Docker, você pode criar um contêiner específico para esse banco de dados, garantindo que ele seja executado de forma consistente em qualquer ambiente, seja localmente em sua máquina de desenvolvimento ou em um servidor de produção.
+
+Facilidade de implantação e escalabilidade: Com o Docker, você pode facilmente implantar e gerenciar instâncias do SGBD de forma rápida e escalável. 
+
+É possível criar imagens personalizadas contendo o SGBD e suas configurações específicas, bem como os dados iniciais necessários. 
+
+Isso permite que você implante rapidamente novas instâncias do SGBD conforme necessário, como por exemplo, para suportar várias aplicações relacionadas ao tema "megalodonte". 
+
+Além disso, o Docker facilita a escalabilidade horizontal, permitindo que você execute várias instâncias do SGBD em diferentes contêineres distribuídos em diversos servidores.
+
+Gerenciamento de versões e atualizações: Com o Docker, é possível gerenciar diferentes versões do SGBD de forma mais eficiente. 
+
+Você pode criar e manter imagens específicas para cada versão do SGBD e atualizá-las conforme necessário. 
+
+Isso permite que você teste e migre entre diferentes versões de forma controlada, evitando problemas de compatibilidade e facilitando o rollback, se necessário. 
+
+Por exemplo, se houver uma nova versão do SGBD relacionada ao tema "megalodonte" que você deseja testar antes de atualizar em produção, basta criar um novo contêiner com essa nova versão e realizar os testes necessários, mantendo a versão anterior em execução até que esteja pronto para a migração.
+
+Reprodutibilidade do ambiente: O Docker garante a reprodutibilidade do ambiente do SGBD em diferentes estágios de desenvolvimento, testes e produção. Ao usar o Docker, é possível especificar todas as dependências necessárias, como versões específicas de bibliotecas ou ferramentas auxiliares. 
+
+Isso evita problemas causados por diferenças de ambiente entre desenvolvedores ou equipes, garantindo que todos trabalhem em um ambiente consistente. 
+
+Por exemplo, se você está trabalhando em um projeto de pesquisa relacionado ao "megalodonte" com outros colaboradores, o Docker pode garantir que todos tenham a mesma configuração do SGBD, mesmo que estejam utilizando diferentes sistemas operacionais ou configurações pessoais.
+
+Em resumo, o uso do Docker para Sistemas de Gerenciamento
