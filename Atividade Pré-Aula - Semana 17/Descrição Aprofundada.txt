@@ -1,0 +1,27 @@
+Course: Software Engineering - UniEVANGÉLICA
+Subject: Database Management Systems
+Developer: Douglas Leonel de Almeida - 2110213
+Date: 20/06/2023
+
+Descrição da Implementação e Aplicação do Sistema de Gerenciamento de Banco de Dados no Projeto NADespensa:
+
+O projeto NADespensa consiste em um software ou aplicativo que tem como objetivo armazenar alimentos em uma despensa virtual, permitindo o cálculo da data de validade dos alimentos, identificação daqueles que estão bons para consumo e de boa aparência, além de fornecer informações sobre preços para compra. Para viabilizar essas funcionalidades, é necessário o uso de um sistema de gerenciamento de banco de dados (SGBD) eficiente e adequado às necessidades do projeto.
+
+Estrutura do Banco de Dados:
+O banco de dados do NADespensa deve ser projetado para armazenar informações sobre os alimentos, incluindo seus nomes, categorias, data de validade, condição (bom para consumo ou não), aparência, preços e outras características relevantes. Além disso, é importante considerar a inclusão de informações sobre os usuários, como seus perfis, preferências alimentares e histórico de compras.
+
+O banco de dados pode ser estruturado de forma relacional, onde as tabelas são organizadas em linhas e colunas, permitindo a definição de relacionamentos entre as entidades (alimentos, usuários, etc.). Por exemplo, pode-se ter uma tabela de alimentos, com campos como ID, Nome, Categoria, Data de Validade, Condição, Aparência, etc. Outra tabela pode ser utilizada para armazenar os usuários, com campos como ID, Nome, Preferências Alimentares, Histórico de Compras, etc. Os relacionamentos entre as tabelas podem ser estabelecidos por meio de chaves estrangeiras, que vinculam registros de uma tabela a registros de outra.
+
+Gerenciamento do Banco de Dados:
+Para o gerenciamento eficiente do banco de dados do NADespensa, é recomendado o uso de um Sistema de Gerenciamento de Banco de Dados (SGBD) que ofereça recursos adequados para a persistência, recuperação e manipulação dos dados. Dentre as opções disponíveis, é possível considerar o uso de SGBDs relacionais tradicionais, como MySQL, PostgreSQL ou SQL Server.
+
+Esses SGBDs oferecem recursos robustos para garantir a integridade e consistência dos dados, além de suportar consultas eficientes e transações seguras. Eles possuem uma ampla gama de ferramentas e linguagens de programação para interação com o banco de dados, como SQL (Structured Query Language), que é uma linguagem padrão para consulta e manipulação de dados em SGBDs relacionais.
+
+Tecnologias Adicionais:
+Além do SGBD, é possível utilizar tecnologias adicionais para melhorar a análise de dados e a experiência do usuário no NADespensa. Por exemplo, para a análise de dados sobre preços de alimentos, podem ser empregadas ferramentas de análise de dados, como Python com bibliotecas como Pandas, NumPy e Matplotlib, para realizar manipulações e visualizações dos dados coletados.
+
+No contexto mobile, a escolha da tecnologia de desenvolvimento do aplicativo pode variar. Caso seja um aplicativo nativo para Android, pode-se utilizar o Android Studio com a linguagem Java ou Kotlin. Já para o desenvolvimento de um aplicativo iOS, é possível utilizar o Xcode com a linguagem Swift. Alternativamente, é possível adotar abordagens híbridas, como o desenvolvimento de um aplicativo utilizando frameworks como React Native ou Flutter, que permitem criar um único código base que pode ser executado tanto em dispositivos Android quanto iOS.
+
+No que se refere à usabilidade, é importante considerar a interface do usuário (UI) e a experiência do usuário (UX), projetando uma interface intuitiva, de fácil utilização e que ofereça uma experiência agradável ao usuário durante a navegação pelo sistema.
+
+Por fim, em relação à conformidade com as normas e modelos de qualidade de processos e produtos de software, é fundamental seguir as melhores práticas de desenvolvimento de software, como adotar metodologias ágeis, realizar testes de software de forma rigorosa, documentar adequadamente o sistema e garantir a segurança das informações armazenadas no banco de dados, por meio de criptografia, controle de acesso e outras medidas de segurança apropriadas.
