@@ -1,0 +1,30 @@
+Course: Software Engineering - UniEVANGÉLICA
+Subject: Database Management Systems
+Developer: Douglas Leonel de Almeida - 2110213
+Date: 27/06/2023
+
+TEMA: Desenvolvimento de um Aplicativo de Busca de Receitas Culinárias com Técnicas de Mineração de Dados e Processamento de Linguagem Natural
+
+Resumo das apresentações de Trabalho de Conclusão de Curso (TCC) com enfoque em banco de dados:
+
+TCC: Desenvolvimento de um Sistema de E-commerce Personalizado para Pequenas Empresas Locais
+Objetivo principal: Criar um sistema de comércio eletrônico personalizado para pequenas empresas locais, visando melhorar suas vendas e alcance de clientes.
+Questão de pesquisa/problema: Como desenvolver uma plataforma de e-commerce eficiente e acessível para pequenos negócios locais?
+Este TCC destacou a importância da programação web na construção do sistema de e-commerce. Foram utilizadas tecnologias como HTML, CSS e JavaScript para desenvolver a interface do usuário. Além disso, o trabalho explorou o uso de frameworks web, como Bootstrap, para facilitar o design responsivo e a estruturação do layout. No backend, foram utilizadas linguagens de programação como PHP e frameworks como Laravel para implementar a lógica de negócios e a interação com o banco de dados.
+A contribuição deste TCC para o campo da programação web está na aplicação prática das tecnologias e frameworks mencionados, fornecendo uma solução viável para pequenas empresas que desejam ingressar no comércio eletrônico. A abordagem adotada e as práticas recomendadas destacaram a importância do design responsivo e da usabilidade na criação de uma experiência positiva para os usuários.
+A avaliação crítica considera que a escolha das tecnologias e frameworks foi adequada, possibilitando o desenvolvimento de um sistema de e-commerce funcional. No entanto, poderia ter havido uma discussão mais aprofundada sobre questões de segurança e escalabilidade, que são aspectos importantes na programação web.
+
+TCC: Desenvolvimento de um Aplicativo Web para Gerenciamento de Projetos Ágeis
+Objetivo principal: Desenvolver um aplicativo web que facilite o gerenciamento de projetos seguindo a metodologia ágil.
+Questão de pesquisa/problema: Como criar uma aplicação web que apoie as práticas do desenvolvimento ágil de projetos?
+Este TCC abordou diretamente a programação web ao desenvolver um aplicativo web completo para gerenciamento de projetos ágeis. Foram utilizadas tecnologias como HTML, CSS e JavaScript para a construção da interface do usuário interativa e responsiva. No lado do servidor, foram adotadas linguagens como Python e frameworks como Django para desenvolver a lógica de negócios e a persistência de dados.
+A contribuição deste TCC para o campo da programação web está na aplicação das técnicas de desenvolvimento ágil em um contexto específico, fornecendo uma solução prática para equipes que adotam essa metodologia. O trabalho apresentou abordagens inovadoras para a visualização de tarefas, gerenciamento de sprints e colaboração entre os membros da equipe.
+A avaliação crítica considera que o aplicativo web desenvolvido atendeu aos requisitos do gerenciamento ágil de projetos e proporcionou uma interface amigável e intuitiva. No entanto, seria interessante uma discussão mais aprofundada sobre a escalabilidade do aplicativo e sobre a integração com outras ferramentas de gerenciamento de projetos. Além disso, uma análise mais detalhada dos desafios e limitações enfrentados durante o desenvolvimento teria enriquecido o trabalho.
+
+TCC: Desenvolvimento de um Aplicativo de Busca de Receitas Culinárias com Técnicas de Mineração de Dados e Processamento de Linguagem Natural
+Objetivo principal: Criar um aplicativo web que permita aos usuários buscar receitas culinárias com base em ingredientes disponíveis e preferências pessoais, utilizando técnicas de mineração de dados e processamento de linguagem natural.
+Questão de pesquisa/problema: Como desenvolver um aplicativo que facilite a busca de receitas culinárias personalizadas por meio da análise de dados e do processamento de linguagem natural?
+Este TCC explorou a programação web e técnicas avançadas de mineração de dados e processamento de linguagem natural para desenvolver um aplicativo de busca de receitas culinárias. Foram utilizadas tecnologias como HTML, CSS e JavaScript para a criação da interface do usuário interativa. No backend, foram empregadas linguagens de programação como Python e bibliotecas especializadas em mineração de dados e processamento de linguagem natural.
+A contribuição deste TCC para o campo da programação web está na aplicação dessas técnicas avançadas para criar um aplicativo prático e útil para os entusiastas da culinária. O trabalho abordou desafios relacionados à análise e estruturação de dados de receitas, à extração de informações relevantes e à personalização das recomendações com base nas preferências dos usuários.
+A avaliação crítica considera que o aplicativo desenvolvido demonstrou eficácia na busca e apresentação de receitas culinárias com base nas necessidades e preferências dos usuários. No entanto, seria interessante uma discussão mais aprofundada sobre as limitações e os possíveis aprimoramentos do aplicativo, bem como a validação dos resultados obtidos com os usuários.
+Esses são apenas alguns exemplos de TCCs relacionados à programação web. Cada um deles demonstra o uso de tecnologias, linguagens de programação e frameworks específicos para resolver problemas e desenvolver soluções práticas. A escolha do tema para o TCC depende dos interesses e objetivos individuais, mas é importante considerar a relevância e a aplicabilidade das tecnologias e técnicas abordadas.
